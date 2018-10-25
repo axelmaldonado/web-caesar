@@ -30,8 +30,7 @@ form = """
         <form action="/" method="POST">
             Rotate by: 
             <input type="text" id="rot" name="rot" value="0"/>
-                <textarea id="textarea" name="textarea"> {0}
-            </textarea>
+                <textarea id="textarea" name="textarea">{0}</textarea>
         <input type="submit" value="Submit"/>
     </form>
     </body>
